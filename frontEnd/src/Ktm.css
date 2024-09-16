@@ -1,0 +1,70 @@
+/*wallpaper*/
+.wallper {
+    background-image: url("./assets/sfondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 500px; /* Should be removed. Only for demonstration */
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+.image {
+    border-style: solid;
+    border-width :5px;
+    border-color: black;
+    display: unset;
+    width: 100%;
+    height: auto;
+}
+#example1 {
+
+    border-radius:10px;
+    background-color:lightgoldenrodyellow ;
+    padding: 10px;
+}
+.buttonBuy {
+    position: relative;
+    padding: 15px 65px;
+    text-align: center;
+    font-size:18px;
+    color:black;
+    cursor: pointer;
+    outline: none;
+    background-color:white;
+    opacity: .5;
+    border-radius: 10px;
+    bottom: 10px;
+    left:450px;
+}
+
+    .buttonBuy:active {
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+        background-color:black;
+    }
+
+
+ul.b {
+    list-style-type: square;
+    color:black;
+    font-weight:700;
+}

@@ -1,0 +1,278 @@
+.wallper{
+  background-image: url("./assets/sfondo.jpg");
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  margin: 0;
+}
+.container {
+  border-style: solid;
+  border-color: black;
+  position: relative;
+  max-width: 450px;
+  max-height: 300px;
+  float:left;
+  left: 15px;
+  top: 70px;
+}
+
+.image {
+  display: unset;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  top: 257px;
+  background: rgb(0, 0, 0);
+  background: rgb(20, 20, 18); /* Black see-through */
+  color: #f1f1f1;
+  width: 99.7%;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.container_1 {
+  border-style: solid;
+  border-color: black;
+  position: relative;
+  max-width: 450px;
+  max-height: 300px;
+  float: left;
+  left: 53px;
+  top: 70px;
+}
+
+.image_1 {
+  display: block;
+  width: 100%;
+  height: 300px;
+  width: 450px;
+}
+
+.overlay_1 {
+  position: absolute;
+  top: 257px;
+  background: rgb(0, 0, 0);
+  background: rgb(20, 20, 18); /* Black see-through */
+  color: #f1f1f1;
+  width: 101%;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.container_1:hover .overlay_1 {
+  opacity: 1;
+}
+
+
+.container_2 {
+  border-style: solid;
+  border-color: black;
+  position: relative;
+  max-width: 450px;
+  max-height: 300px;
+  float: right;
+  right: 10px;
+  top: 70px;
+}
+
+.image_2 {
+  display: block;
+  width: 100%;
+  height: 300px;
+  width: 450px;
+}
+
+.overlay_2 {
+  position: absolute;
+  top: 257px;
+  background: rgb(0, 0, 0);
+  background: rgb(20, 20, 18); /* Black see-through */
+  color: #f1f1f1;
+  width: 101.8%;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+.container_2:hover .overlay_2 {
+  opacity: 1;
+}
+
+/*Buttom wallper*/
+/*Grid with 6 elements*/
+.item1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.item2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.item3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+.item4 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.item5 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.item6 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+.grid-container {
+  position: relative;
+  display: grid;
+  grid-auto-rows: 90px;
+  grid-gap: 50px;
+  padding: 65px;
+  top: 65px;
+}
+
+  .grid-container > div {
+      text-align: center;
+      padding: 20px 0;
+      
+  }
+
+/*Butoons with logos*/
+.buttonKTM {
+  position: relative;
+  padding: 55px 200px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  background-image: url("./assets/logoKTM.jpeg");
+  background-size: cover;
+  background-position:center center ;
+  border:none;
+  border-radius: 10px;
+  bottom: 10px;
+}
+
+.buttonKTM:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.buttonKAWA {
+  position: relative;
+  padding: 55px 200px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  background-image: url("./assets/logoKAWA.jpg");
+  background-size: cover;
+  background-position: center center;
+  border: none;
+  border-radius: 10px;
+  bottom: 10px;
+}
+
+  .buttonKAWA:active {
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+  }
+
+.buttonAIROH {
+  position: relative;
+  padding: 55px 200px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  background-image: url("./assets/logoAIROH.jpeg");
+  background-size: cover;
+  background-position: center center;
+  border: none;
+  border-radius: 10px;
+  bottom: 10px;
+}
+
+  .buttonAIROH:active {
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+  }
+
+.buttonFOX {
+  position: relative;
+  padding: 55px 200px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  background-image: url("./assets/logoFOX.jpeg");
+  background-size: cover;
+  background-position: center center;
+  border: none;
+  border-radius: 10px;
+  bottom: 10px;
+}
+
+  .buttonFOX:active {
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+  }
+
+.buttonUFO {
+  position: relative;
+  padding: 55px 200px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: none;
+  background-color: white;
+  background-image: url("./assets/logoUFO.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  border: none;
+  border-radius: 10px;
+  bottom: 10px;
+}
+
+  .buttonUFO:active {
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+  }
+
+.buttonALP {
+  position: relative;
+  padding: 55px 200px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  background-color: white;
+  background-image: url("./assets/logoALP.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  border: none;
+  border-radius: 10px;
+  bottom: 10px;
+}
+
+  .buttonALP:active {
+      box-shadow: 0 5px #666;
+      transform: translateY(4px);
+  }

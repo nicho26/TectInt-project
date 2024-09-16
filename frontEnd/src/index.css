@@ -1,0 +1,24 @@
+:root{
+  --green: #4cff00;
+  --white: #ffffff;
+  --drak: #000000;
+}
+/*Title*/
+.Title{
+  font-family:'Goudy Stout';
+  text-align:center;
+}
+
+/*wallpaper*/
+
+
+
+.Text_block{
+  position:absolute;
+  top: 450px;
+  right: 20px;
+  color:white;
+  background-color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
